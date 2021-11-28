@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Signin from './components/Signin';
 import Home from './components/Home';
 import Dashboard from './components/Dashboard';
+import './css/style.css';
 
 function App() {
   return (
@@ -25,8 +26,6 @@ function App() {
           <Route exact path="/signin" element={<Signin/>}/>
           <Route exact path="/dashboard" element={<Dashboard/>}/>
         </Routes>
-
-      
     </div>
   </BrowserRouter>
   );
