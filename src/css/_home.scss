@@ -1,0 +1,14 @@
+  
+#home {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  
+  .content{
+    display: grid;
+    place-items: center;
+    height: 400px;
+    width: 600px;
+    color: #333;
+  }
+}

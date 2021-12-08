@@ -1,14 +1,14 @@
-const Dashboard = () => {
+const Contact = () => {
   const buttonClickHandler = (event) => {
-    console.log('Dashboard :: buttonClickHandler : className :', event.target.className);
+    console.log('Contact :: buttonClickHandler : className :', event.target.className);
   }
   return (
-    <div id="dashboard">
+    <div id="contact">
       <div className="content">
-        <h2>Dashboard</h2>
+        <h2>Contact</h2>
         <button className='button' onClick={buttonClickHandler}>Sign out</button>
       </div>
     </div>
   );
 }
-export default Dashboard;
+export default Contact;

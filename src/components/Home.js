@@ -1,13 +1,14 @@
 const Home = () => {
-    const buttonClickHandler = (event) => {
-    // const buttonClass = event.target.className.split(' ')[1];
+  const buttonClickHandler = (event) => {
     console.log('Home :: buttonClickHandler : className :', event.target.className);
-    }
-    return (
-      <div id="home">
-         <h1>Home Page</h1>
-         <button className='button' onClick={ buttonClickHandler }>Sign out</button>
+  }
+  return (
+    <div id="home">
+      <div className="content">
+        <h2>Home</h2>
+        <button className='button' onClick={buttonClickHandler}>Sign out</button>
       </div>
-      );
-    }
+    </div>
+  );
+}
 export default Home;
